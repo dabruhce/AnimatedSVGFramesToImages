@@ -6,7 +6,7 @@ Capture SVG Animation is a tool to capture SVG animations as a sequence of image
 
 1. Clone this repository:
 \```bash
-git clone https://github.com/yourusername/capturesvganimation.git
+git clone https://github.com/dabruhce/capturesvganimation.git
 \```
 
 2. Install the required dependencies:
