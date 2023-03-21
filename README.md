@@ -17,7 +17,7 @@ npm install
 
 ## Usage
 
-1. Modify the `test.js` file to specify the options for capturing the SVG animation, such as the input file, output directory, and naming pattern.
+1. Modify the `app.js` file to specify the options for capturing the SVG animation.
 
 2. Run the `captureAnimation` function in the `test.js` file:
 \```bash
