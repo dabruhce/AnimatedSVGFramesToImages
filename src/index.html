@@ -54,8 +54,8 @@
                 console.log(time,frame);
                 'takeFrame' in window && takeFrame();
                 frame++;
-        },1000);
-}
+                    },1000);
+            }
 
         var svg_el = document.querySelector("svg")
         processAnimation(svg_el, seconds, frame)

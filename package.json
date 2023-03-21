@@ -1,18 +1,35 @@
 {
-    "name": "animatedsvg2frames",
-    "version": "1.0.0",
-    "main": "app.js",
-    "scripts": {
-      "start": "node app.js"
-    },
-    "keywords": [],
-    "author": "bea",
-    "license": "MIT",
-    "description": "",
-    "dependencies": {
-      "pixelmatch": "^5.3.0",
-      "pngjs": "^7.0.0",
-      "puppeteer": "^5.5.0"
-    }
+  "name": "capturesvganimation",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "A tool to capture SVG animations as a sequence of images using Puppeteer.",
+  "scripts": {
+    "start": "yarn reset && node app.js",
+    "test": "node test.js",
+    "reset": "rimraf artifacts && mkdirp artifacts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dabruhce/capturesvganimation.git"
+  },
+  "keywords": [
+    "svg",
+    "animation",
+    "capture",
+    "puppeteer"
+  ],
+  "author": "bea",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^2.1.5",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^5.5.0",
+    "rimraf": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
   }
-  
+}

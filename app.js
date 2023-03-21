@@ -2,7 +2,7 @@ const { captureSvgAnimation } = require('./capture_svg_animation.js');
 
 async function captureAnimation() {
   const options = {
-    input: './src/index.html',
+    input: './src/index.html?frame=1&seconds=180',
     width: '800',
     height: '800',
     start: '1',
@@ -13,7 +13,7 @@ async function captureAnimation() {
 
   try {
     await captureSvgAnimation(options);
-    console.log('Animation captured successfully');
+    console.log('Processing animations');
   } catch (error) {
     console.error('Error capturing animation:', error);
   }
